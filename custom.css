@@ -1,0 +1,163 @@
+
+.root-body {
+  margin-top: 85px;
+  width: 100%;
+  height: fit-content;
+
+
+}
+
+.land {
+
+  background-image: url("elec-img.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  -webkit-filter: grayscale(100%);
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  font-size: 3em;
+  text-align: center;
+  padding-top: 8%;
+  padding-bottom: 8%;
+}
+
+.space {
+  background-image: url("elec-img.jpg");
+  -webkit-filter: grayscale(100%);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 220px;
+
+}
+
+.services {
+  height: fit-content;
+  background-color: white;
+
+}
+
+.card-head {
+  font-size: 43px;
+  float: left;
+}
+
+.card, .card-img-top {
+  border:0;
+  border-top: 0;
+}
+.card-body {
+  background-color: #F7F7F7;
+  border: 0;
+}
+
+.header {
+  color:#C6C6C6;
+  font-size: 55px;
+  font-weight: 500;
+  text-align: center;
+}
+.about-img {
+  background-image: url("contruction-site.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+height: 100%;
+  }
+
+
+
+.navbar {
+  background-color: #1E2D3B;
+}
+
+
+.navbar .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+hr {
+  border: 4px solid #008AFC;
+  width:90px;
+}
+.main-intro {
+  font-size: 70px;
+  color:#3B3A3A;
+}
+span{
+  display: block;
+}
+
+#nav-text, a, a:active{
+  color: white;
+}
+
+#navbarText{
+  font-size: 25px;
+}
+
+a:hover {
+  color: #008AFC;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+#brand, #brand:hover {
+  LINE-HEIGHT:30px;
+  letter-spacing: 3px;
+  font-size: 30px;
+  color:white;
+}
+
+.nav-item {
+  margin-right: 50px;
+  font-weight: lighter;
+}
+
+
+
+
+#nav-item {
+  margin-left: 50%;
+}
+
+
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  #about-img{
+    display: none;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  #about-img{
+    display: none;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  #about-img{
+    display: block;
+  }
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  #about-img{
+    display: block;
+  }
+}
