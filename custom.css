@@ -1,3 +1,34 @@
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) {
+  #about-img{
+    display: none;
+  }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) {
+  #about-img{
+    display: none;
+  }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+  #about-img{
+    display: block;
+  }
+
+}
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) {
+  #about-img{
+    display: block;
+  }
+}
+
+
+
 
 .root-body {
   margin-top: 85px;
@@ -130,34 +161,4 @@ a:hover {
 
 #nav-item {
   margin-left: 50%;
-}
-
-
-// Small devices (landscape phones, 576px and up)
-@media (min-width: 576px) {
-  #about-img{
-    display: none;
-  }
-}
-
-// Medium devices (tablets, 768px and up)
-@media (min-width: 768px) {
-  #about-img{
-    display: none;
-  }
-}
-
-// Large devices (desktops, 992px and up)
-@media (min-width: 992px) {
-  #about-img{
-    display: block;
-  }
-
-}
-
-// Extra large devices (large desktops, 1200px and up)
-@media (min-width: 1200px) {
-  #about-img{
-    display: block;
-  }
 }
