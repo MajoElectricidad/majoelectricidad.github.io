@@ -10,7 +10,7 @@
 
 
 .land {
-  background-image: url("contruction-site.jpg");
+  background-image: url("/images/contruction-site.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -27,7 +27,7 @@
 }
 
 .space {
-  background-image: url("elec-img.jpg");
+  background-image: url("/images/elec-img.jpg");
   -webkit-filter: grayscale(100%);
   background-attachment: fixed;
   background-position: center;
@@ -66,7 +66,7 @@
 }
 
 .about-img {
-  background-image: url("/contruction-site.jpg");
+  background-image: url("/images/contruction-site.jpg");
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
