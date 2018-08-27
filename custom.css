@@ -1,5 +1,9 @@
 /* Author: Che Sampat */
 
+* {
+  transition: 0.25s;
+}
+
 .root-body {
   margin-top: 85px;
   width: 100%;
